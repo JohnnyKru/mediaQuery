@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<style>
+
+body {
+    background-color:lightblue;
+}
+.box1{
+width: 400px;
+height: 400px;
+background:blue;
+}
+
+.box2{
+width: 400px;
+height: 400px;
+background:red;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color:black;
+    }
+    .box1{
+        width:200px;
+        height: 200px;
+        background:green;
+    }
+
+    .box2{
+        width:200px;
+        height: 200px;
+        background:pink;
+    }
+}
+
+
+
+
+</style>
+</head>
+
+
+<body>
+
+<div class"container">
+    <div class="row">
+        <div class=" box1 col-md-6 col-lg-12" >
+            <P>This Box will turn Green & resize down.</P>
+        </div>
+        <div class="box2 col-md-6 col-lg-12" >
+            <p>This Box will turn pink & resize down.</p>
+        </div>
+    </div>
+</div>
+
+
+<p>Resize the browser to a smaller size to change background and layout.</p>
+
+
+</body>
+</html>
